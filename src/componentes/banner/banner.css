@@ -19,6 +19,7 @@
     --border-header: #ececec;
 }
 
+/*      TEXTOS, TÍTULOS Y PARRAFOS       */
 
 
 
@@ -26,7 +27,6 @@
 
 .banner {
     background-color: var(--secondary-text-color);
-    text-align: left;
     height: 600px;
     display: flex;
     align-items: center;
