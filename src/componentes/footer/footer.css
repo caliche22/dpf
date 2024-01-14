@@ -1,0 +1,46 @@
+/*      VARIABLES       */
+
+:root {
+    --primary-text-color: #c843ee;
+    --secondary-text-color: #ecc6f8;
+    --third-text-color: #f7f7f7;
+    --title-font: Playfair Display;
+
+    --logo-color: #2196f3;
+    --link-text-color: #212121;
+    --link-text-color-hover-focus: #2196f3;
+    --link-contact-text-color: #757575;
+    --banner-background-color: #2f303a;
+    --banner-title-color: #ffffff;
+    --button-text-color: #212121;
+    --button-background-color: #f5f4fa;
+    --button-text-color-hover-focus: #ffffff;
+    --button-background-color-hover-focus: #2196f3;
+    --footer-text-color: #ffffff;
+    --background-second-color: #F5F4FA;
+    --border-header: #ececec;
+}
+
+
+/*      LISTAS      */
+
+.list_footer {
+    list-style: none;
+    padding: 0;
+}
+
+.contact {
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    color: white;
+    font-style: normal;
+}
+
+
+/*      BLOQUES     */
+
+.footer {
+    background-color: var(--banner-background-color);
+    padding: 60px;
+}

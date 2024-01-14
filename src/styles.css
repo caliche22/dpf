@@ -1,0 +1,118 @@
+/*      VARIABLES       */
+
+:root {
+    --primary-text-color: #c843ee;
+    --secondary-text-color: #ecc6f8;
+    --third-text-color: #f7f7f7;
+    --title-font: Playfair Display;
+
+    --logo-color: #2196f3;
+    --link-text-color: #212121;
+    --link-text-color-hover-focus: #2196f3;
+    --link-contact-text-color: #757575;
+    --banner-background-color: #2f303a;
+    --banner-title-color: #ffffff;
+    --button-text-color: #212121;
+    --button-background-color: #f5f4fa;
+    --button-text-color-hover-focus: #ffffff;
+    --button-background-color-hover-focus: #2196f3;
+    --footer-text-color: #ffffff;
+    --background-second-color: #F5F4FA;
+    --border-header: #ececec;
+}
+
+
+
+/*      CUERPO Y GENERALIDADES      */
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: #212121;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/*      TEXTOS, TÍTULOS Y PARRAFOS       */
+
+.title {
+    font-family: var(--title-font);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 60px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 700px;
+}
+
+.title_h2 {
+    font-family: var(--title-font);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: 0.48px;
+    text-align: center;
+}
+
+
+/*      LISTAS      */
+
+.list{
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0%;
+}
+
+.list_item:not(:first-child) {
+    margin-left: 30px;
+}
+
+
+/*      BLOQUES     */
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.section{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+/*      BOTONES     */
+
+.button_index {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 32px;
+    align-items: center;
+}
+
+.button_index:hover,
+.button_index:focus {
+    color: var(--button-text-color-hover-focus);
+    background-color: var(--button-background-color-hover-focus);
+}

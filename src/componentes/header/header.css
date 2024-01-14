@@ -1,0 +1,65 @@
+/*      VARIABLES       */
+
+:root {
+    --primary-text-color: #c843ee;
+    --secondary-text-color: #ecc6f8;
+    --third-text-color: #f7f7f7;
+    --title-font: Playfair Display;
+
+    --logo-color: #2196f3;
+    --link-text-color: #212121;
+    --link-text-color-hover-focus: #2196f3;
+    --link-contact-text-color: #757575;
+    --banner-background-color: #2f303a;
+    --banner-title-color: #ffffff;
+    --button-text-color: #212121;
+    --button-background-color: #f5f4fa;
+    --button-text-color-hover-focus: #ffffff;
+    --button-background-color-hover-focus: #2196f3;
+    --footer-text-color: #ffffff;
+    --background-second-color: #F5F4FA;
+    --border-header: #ececec;
+}
+
+/*      BLOQUES     */
+
+.header {
+    padding: 12px;
+}
+
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+/*      TEXTOS, TÍTULOS Y PARRAFOS       */
+
+.link {
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--link-text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--link-text-color-hover-focus);
+}
+
+.user {
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 0.32px;
+    color: var(--link-contact-text-color);
+    font-style: normal;
+}
+
+.user:hover,
+.user:focus {
+    color: var(--link-text-color-hover-focus);
+}

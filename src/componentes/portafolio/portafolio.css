@@ -1,0 +1,92 @@
+/*      VARIABLES       */
+
+:root {
+    --primary-text-color: #c843ee;
+    --secondary-text-color: #ecc6f8;
+    --third-text-color: #f7f7f7;
+    --title-font: Playfair Display;
+
+    --logo-color: #2196f3;
+    --link-text-color: #212121;
+    --link-text-color-hover-focus: #2196f3;
+    --link-contact-text-color: #757575;
+    --banner-background-color: #2f303a;
+    --banner-title-color: #ffffff;
+    --button-text-color: #212121;
+    --button-background-color: #f5f4fa;
+    --button-text-color-hover-focus: #ffffff;
+    --button-background-color-hover-focus: #2196f3;
+    --footer-text-color: #ffffff;
+    --background-second-color: #F5F4FA;
+    --border-header: #ececec;
+}
+
+
+/*      TEXTOS, TÍTULOS Y PARRAFOS       */
+
+.nom_prod {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.precio {
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+
+/*      BLOQUES     */
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portafolio {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    width: 370px;
+}
+
+.card_info {
+    display: block;
+    margin: 0;
+    padding: 20px 24px;
+    border: 1px solid var(--border-header);
+    border-top: none;
+}
+
+
+/*      BOTONES     */
+
+.button_productos {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Roboto;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 24px;
+}
+
+.button_productos:hover,
+.button_productos:focus
+.button_productos:active {
+    color: var(--button-text-color-hover-focus);
+    background-color: var(--button-background-color-hover-focus);
+}
